@@ -4,7 +4,9 @@ dob_date = raw_input("Enter the date from your date of birth.")
 dob_month = raw_input("Enter the month from your date of birth.")
 dob_month1 = dob_month.title()
 dob_year = raw_input("Enter the year from your date of birth.")
-current_year = 2015
+import time
+current_year = int(time.strftime("%Y"))
+
 birth_year = int(dob_year)
 gender = raw_input("Enter your gender.")
 height = raw_input("Enter your height in cm.")
