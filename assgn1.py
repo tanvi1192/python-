@@ -1,4 +1,4 @@
-name = raw_input("Enter your name.")
+name = raw_input(" What is your name?: ")
 name1 = name.title()
 dob_date = raw_input("Enter the date from your date of birth.")
 dob_month = raw_input("Enter the month from your date of birth.")
